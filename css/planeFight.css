@@ -13,5 +13,6 @@ html,body{
 }
 
 #game-battle{
+	background: #000;
 	position: absolute;
 }
