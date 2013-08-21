@@ -190,7 +190,7 @@ function control(){
 			event.preventDefault();
 			if(event.targetTouches.length == 1){
 				player.x = event.targetTouches[0].pageX-player.width/2;
-				player.y = event.targetTouches[0].pageY-palyer.height-80;
+				player.y = event.targetTouches[0].pageY-player.height-80;
 			}
 		} , false);
 	}
