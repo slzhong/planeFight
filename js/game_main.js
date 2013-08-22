@@ -158,8 +158,8 @@ function draw(){
 }
 
 function collides(a,b){
-	return a.x < b.x+b.width-20 &&
-	b.x < a.x+a.width-20 &&
+	return a.x < b.x+b.width-10 &&
+	b.x < a.x+a.width-10 &&
 	a.y < b.y+b.height-20 &&
 	b.y < a.y+a.height-20;
 }
